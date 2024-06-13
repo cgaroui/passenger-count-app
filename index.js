@@ -78,3 +78,11 @@ function increment(){
     countEl.innerText = count 
     console.log(count)
 }
+
+
+//--------------------------------------------------
+//create a function , save() whitch logs out the count when it's called  
+
+function save(){
+    console.log(count)
+}
