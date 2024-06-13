@@ -17,3 +17,64 @@ console.log(bonuspoints)
 
 bonuspoints = bonuspoints + 45
 console.log(bonuspoints)
+
+// create the function increment()
+function increment() {
+    console.log("the button was clicked")
+}
+
+//using the function for less code 
+
+function countdown(){
+    console.log(5)
+    console.log(4)
+    console.log(3)
+    console.log(2)
+    console.log(1)
+}
+
+
+//------------------------------------------------------
+
+
+let lap1 = 34
+let lap2 = 33 
+let lap3 = 39
+
+//create a function that logs out the sum all the lap times 
+function logLapTime(){
+    let totalTime = lap1 + lap2 + lap3
+    console.log( totalTime)
+}
+
+// call the function to display the result 
+logLapTime()
+
+
+
+//----------------------------------------
+//the function that increment the lapsCompleted variable with one 
+
+let lapsCompleted = 0
+
+function incrementLap() {
+    lapsCompleted = lapsCompleted +1
+}
+
+incrementLap()
+incrementLap()
+incrementLap()
+
+console.log(lapsCompleted)
+
+//-----------------------------------------------------------
+
+let countEl = document.getElementById("count-el")
+console.log(countEl)
+count = 0
+function increment(){
+    console.log("clicked")
+    count= count+1
+    countEl.innerText = count 
+    console.log(count)
+}
